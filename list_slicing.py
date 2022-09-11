@@ -1,0 +1,17 @@
+list=[1,3,4,6,5,9,0]
+list_2=["fkdj","iejfi"]
+print(list)
+list.sort()
+print(list)
+list.reverse()
+print(list)
+list.append(34)
+print(list)
+list.insert(1,69)
+print(list)
+list.remove(69)
+print(list)
+print(list.index(4))
+list.extend(list_2)
+print(list)
+print(type(list))
